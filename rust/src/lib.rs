@@ -204,11 +204,12 @@ pub mod snarkvm_types {
     };
     pub use snarkvm_console::{
         account::{Address, PrivateKey, Signature, ViewKey},
-        network::Testnet3,
-        prelude::{ToBytes, Uniform},
-        program::{Ciphertext, Identifier, Literal, Network, Plaintext, ProgramID, Record, Value},
+        network::{Testnet3, Environment},
+        prelude::{FromBytes, ToBytes, Uniform},
+        program::{Ciphertext, Identifier, Literal, Network, Plaintext, ProgramID, Record, Value, Response},
         types::Field,
     };
+    pub use snarkvm_fields::{PrimeField};
 }
 #[cfg(feature = "full")]
 use snarkvm::{file::Manifest, package::Package};
