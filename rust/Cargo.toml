@@ -77,6 +77,9 @@ workspace = true
 version = "0.2"
 features = [ "js" ]
 
+[dependencies.snarkvm-fields]
+workspace = true
+
 [dev-dependencies.bencher]
 version = "0.1.5"
 
