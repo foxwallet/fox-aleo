@@ -40,9 +40,6 @@ path = "../fox-snarkvm/console/network"
 [workspace.dependencies.snarkvm-synthesizer]
 path = "../fox-snarkvm/synthesizer"
 
-[workspace.dependencies.snarkvm-wasm]
-path = "../fox-snarkvm/wasm"
-
 [workspace.dependencies.snarkvm-ledger-block]
 path = "../fox-snarkvm/ledger/block"
 
@@ -54,6 +51,9 @@ path = "../fox-snarkvm/ledger/query"
 
 [workspace.dependencies.snarkvm-ledger]
 path = "../fox-snarkvm/ledger"
+
+[workspace.dependencies.snarkvm-wasm]
+path = "../fox-snarkvm/wasm"
 
 [workspace.dependencies.snarkvm-fields]
 path = "../fox-snarkvm/fields"
