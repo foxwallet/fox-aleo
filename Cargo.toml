@@ -1,6 +1,6 @@
 [package]
 name = "aleo"
-version = "0.5.0"
+version = "0.5.1"
 authors = [ "The Aleo Team <hello@aleo.org>" ]
 description = "Aleo"
 homepage = "https://aleo.org"
@@ -21,7 +21,7 @@ edition = "2021"
 members = [ "rust", "wasm", "rust/develop"]
 
 [workspace.dependencies.aleo-rust]
-version = "0.5.0"
+version = "0.5.1"
 path = "rust"
 default-features = false
 
@@ -48,9 +48,6 @@ path = "../fox-snarkvm/ledger/store"
 
 [workspace.dependencies.snarkvm-ledger-query]
 path = "../fox-snarkvm/ledger/query"
-
-[workspace.dependencies.snarkvm-ledger]
-path = "../fox-snarkvm/ledger"
 
 [workspace.dependencies.snarkvm-wasm]
 path = "../fox-snarkvm/wasm"
