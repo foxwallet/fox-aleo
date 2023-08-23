@@ -213,6 +213,7 @@ pub mod snarkvm_types {
             Response,
             Value,
             ValueType,
+            Request,
         },
         types::Field,
     };
